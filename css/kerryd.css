@@ -266,6 +266,18 @@ a:focus {
   width: 75%;
 }
 
+#faq img {
+	display: block;
+	margin:auto;
+	width: 25%;
+	max-width: 600px;
+}
+
+#faq a {
+	text-decoration: none;
+	color: #A2D2BA;
+}
+
 #faq p {
 	margin: auto;
 	width:80%;
