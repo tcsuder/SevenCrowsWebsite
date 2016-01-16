@@ -6,10 +6,8 @@ section {
 	padding-top: 7em;
 }
 
-@media (min-width: 1200px) {
-	section {
-		padding-top: 10em;
-	}
+section {
+	padding-top: 10em;
 }
 
 /*     nav       */
@@ -30,14 +28,6 @@ section {
     margin-left: 2%;
 }
 
-@media (min-width: 1200px) {
-	.navbar-nav li {
-    width:10em;
-    margin-right: 5%;
-    margin-left: 5%;
-	}
-}
-
 #bs-example-navbar-collapse-1 ul li.page-scroll a {
     background-color: #333;
 }
@@ -51,14 +41,6 @@ section {
 		margin-top: -7px;
 		width:100px;
 	}
-
-@media (min-width: 768px) {
-	.navbar-nav li hr {
-		border-top:2px solid white;
-		margin-top: -15px;
-		width:120px;
-	}
-}
 
 .navbar-default .navbar-nav > li > a:focus {
 	color: #fff;
@@ -114,10 +96,15 @@ h3 {
 /*    slogan line   */
 
 .media-slogan {
+	width:100%;
 	color:#333;
 	background-color:#ECF0F1;
 	padding-top: 30px;
 	padding-bottom: 30px;
+}
+
+header .container {
+	padding: 0px;
 }
 
 /*    About     */
@@ -163,14 +150,18 @@ h3 {
     background-color: #333;
 }
 
+#portfolio .portfolio-item .portfolio-link .caption {
+	height:120%;
+}
+
 #portfolio .portfolio-item h1 {
 	max-width: 700px;
 	height:6.67em;
-  font-size: 3em;
+  font-size: 2.5em;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  padding-top: 2.75em;
+  padding-top: 3em;
   color:#fff;
 }
 
