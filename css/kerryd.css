@@ -257,7 +257,27 @@ a:focus {
     opacity: .8;
 }
 
-/*    FAQ    */
+/*    FAQ SM - XL SCREEN    */
+
+#faq .xs-sm {
+	text-align: center;
+}
+
+#faq .xs-sm h2 {
+	font-size: 2em;
+}
+
+@media (max-width:768px) {
+	#faq .md-xl {
+		display:none;
+	}
+}
+
+@media (min-width:769px) {
+	#faq .xs-sm {
+		display: none;
+	}
+}
 
 #faq {
 	background-color:#333;
@@ -277,6 +297,7 @@ a:focus {
 	margin:auto;
 	width: 25%;
 	max-width: 600px;
+	border: 3px solid #141414;
 }
 
 #faq a {
@@ -291,36 +312,50 @@ a:focus {
 }
 /*   Contact   */
 
+#contact h1 {
+	color:#333;
+	text-align: center;
+}
+
 #contact {
-	background-color:#333;
+	background-color:#A2D2BA;
 	color:#fff;
 }
 
 #contact hr {
-	border-top: 6px solid #fff;
+	border-top: 6px solid #333;
 	width:250px;
 	margin-top:-2px;
 	border-radius: 2px
 }
 
 .btn-success {
-    color: #ffffff;
-    background-color: #333;
-    border-color: #fff;
+    color: #333;
+    background-color: #A2D2BA;
+		border: 2px solid #fff;
+		font-weight: bold;
 }
 
 .btn-success:hover {
     color: #ffffff;
-    background-color: #A2D2BA;
+    background-color: #333;
     border-color:#A2D2BA;
 }
 
-#contactForm > div > div > label {
-	color:#ECF0F1;
+#contactForm label {
+	color:#333;
+}
+
+.form-control::-webkit-input-placeholder {
+	color:#333;
+}
+
+.form-control::-moz-placeholder {
+	color:#333;
 }
 
 #name, #email, #phone, #message {
-	color:#ECF0F1;
+	color:#333;
 }
 
 /*    Arrow Button */
