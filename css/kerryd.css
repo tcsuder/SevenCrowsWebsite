@@ -300,6 +300,9 @@ a:focus {
 	#faq .md-xl {
 		display:none;
 	}
+	#faq p {
+		font-size: .9em;
+	}
 }
 
 @media (min-width:769px) {
