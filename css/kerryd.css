@@ -286,6 +286,11 @@ a:focus {
 
 .question:hover {
 	cursor: pointer;
+  color: #A2D2BA;
+}
+
+.active {
+  color: #A2D2BA;
 }
 
 #faq .xs-sm {
@@ -294,6 +299,14 @@ a:focus {
 
 #faq .xs-sm h2 {
 	font-size: 1.5em;
+}
+
+#faq .md-xl h2 {
+  font-size: 2em;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: #A2D2BA;
 }
 
 @media (max-width:768px) {
@@ -319,8 +332,8 @@ a:focus {
 #faq hr {
   height: 2px;
   background-color:#555;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 2em;
+  margin-bottom: 2em;
   width: 75%;
 	background-color: inherit;
 }
