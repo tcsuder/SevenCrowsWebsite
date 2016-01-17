@@ -322,6 +322,7 @@ a:focus {
   margin-top: 20px;
   margin-bottom: 20px;
   width: 75%;
+	background-color: inherit;
 }
 
 #faq img {
