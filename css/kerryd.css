@@ -1,13 +1,15 @@
+html,body
+{
+    overflow-x: hidden;
+}
+
+
 h6 {
 	font-family: 'Kalam';
 }
 
 section {
-	padding-top: 7em;
-}
-
-section {
-	padding-top: 10em;
+	padding-top: 6.5em;
 }
 
 /*     nav       */
@@ -89,10 +91,10 @@ header {
 	padding:0 20px;
 }
 
-h3 {
-	font-weight: bolder;
+header #banner {
+	padding-top: 150px;
+	padding-bottom: 100px
 }
-
 /*    slogan line   */
 
 .media-slogan {
@@ -106,6 +108,25 @@ h3 {
 header .container {
 	padding: 0px;
 }
+
+@media (max-width:485px) {
+	.media-slogan h3 {
+		font-size: 1.1em;
+	}
+	.media-slogan hr {
+		border-top: 1px solid #333;
+		width:70%
+	}
+}
+
+.media-slogan h3 {
+	font-size: 1.5em;
+}
+.media-slogan hr {
+	border-top: 1px solid #333;
+	width:60%
+}
+
 
 /*    About     */
 
@@ -257,7 +278,15 @@ a:focus {
     opacity: .8;
 }
 
-/*    FAQ SM - XL SCREEN    */
+/*    FAQ SCREEN    */
+
+#faqdrop1, #faqdrop2, #faqdrop3 {
+	display: none;
+}
+
+.question:hover {
+	cursor: pointer;
+}
 
 #faq .xs-sm {
 	text-align: center;
@@ -315,6 +344,7 @@ a:focus {
 #contact h1 {
 	color:#333;
 	text-align: center;
+	font-size: 1.5em;
 }
 
 #contact {
